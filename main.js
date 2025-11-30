@@ -1,5 +1,5 @@
 
-document.body.style.backgroundImage="url(../images/bg.png)";
+document.body.style.backgroundImage="url(./images/bg.png)";
 let score = 0;
 document.querySelector("p").innerText+=" "+score;
 
@@ -13,7 +13,7 @@ class Egg {
         this.moveVer = 0;
         this.moveHor = Math.random() * window.innerWidth;
         this.element = document.createElement("img");
-        this.element.src= "../images/1182-removebg-preview.png";
+        this.element.src= "./images/1182-removebg-preview.png";
         this.element.classList.add("egg");
         this.element.style.top = `${this.moveVer}px`;
         this.element.style.left = `${this.moveHor}px`;
@@ -42,7 +42,7 @@ class Egg {
     reset(){
         this.moveVer = 0;
         this.moveHor = Math.random() * window.innerWidth;
-        this.element.src= "../images/1182-removebg-preview.png";
+        this.element.src= "./images/1182-removebg-preview.png";
         this.element.style.visibility = "visible";
         this.element.style.top = `${this.moveVer}px`;
         this.element.style.left = `${this.moveHor}px`;
@@ -129,6 +129,7 @@ function AddMoreEggs(){
     numEggs++;
     eggs.push(new Egg());
 }
+
 
 
 

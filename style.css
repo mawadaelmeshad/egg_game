@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.egg{
+    position: absolute;
+    width: 80px;
+}
+#basket{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+p{
+    margin: 6px;
+    font-size: larger;
+    background-color: white;
+    width: 100px;
+    padding: 4px;
+    border-radius: 12px;
+
+}
+button{
+    background-color: aqua;
+    padding: 8px 12px;
+    margin: 6px;
+    border-radius: 12px;
+    font-weight: bold;
+}

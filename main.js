@@ -1,5 +1,5 @@
 
-document.body.style.backgroundImage="url(/egg_game/images/bg.png)";
+document.body.style.backgroundImage="url(images/bg.png)";
 let score = 0;
 document.querySelector("p").innerText+=" "+score;
 
